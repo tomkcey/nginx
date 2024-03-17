@@ -1,0 +1,7 @@
+FROM node:alpine
+
+WORKDIR /web
+
+COPY server.js .
+
+CMD ["node", "server.js"]

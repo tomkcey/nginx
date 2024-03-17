@@ -1,0 +1,35 @@
+GET http://localhost:80/web HTTP/1.1
+
+###
+
+GET http://localhost:80/web? HTTP/1.1
+
+###
+
+
+GET http://localhost:80/web?big=burger HTTP/1.1
+
+###
+
+
+GET http://localhost:80/web?big=burger&huge=hotdog HTTP/1.1
+
+###
+
+
+GET http://localhost:80/web/sandwich HTTP/1.1
+
+###
+
+
+GET http://localhost:80/web/sandwich?big=burger HTTP/1.1
+
+###
+
+GET http://localhost:80/ HTTP/1.1
+
+###
+
+GET http://localhost:80/magnanimous-burger HTTP/1.1
+
+###
